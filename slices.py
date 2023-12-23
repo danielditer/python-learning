@@ -11,3 +11,6 @@ for player in players[-3:]:
 print('The items from the middle of the list are:')
 for player in players[int(len(players)/2)+1-2:int(len(players)/2)+2]:
     print(player.title())
+
+#pizzas
+pizzas = ['Margherita','Pepperoni','Hawaiian','Veggie Supreme','BBQ Chicken', 'Pesto and Tomato']
