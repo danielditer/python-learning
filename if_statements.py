@@ -71,7 +71,7 @@ for user in new_users:
     else:
         print(f'The user {user} is available.')
 
-# 5-10 Ordinal numbers
+# 5-11 Ordinal numbers
 
 numbers = []
 
@@ -86,4 +86,3 @@ for i in range(9):
         print(f'{numbers[i]}rd\n')
     else:
         print(f'{numbers[i]}th\n')
-        
