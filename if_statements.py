@@ -70,3 +70,20 @@ for user in new_users:
         print(f'The user {user} already exists.')
     else:
         print(f'The user {user} is available.')
+
+# 5-10 Ordinal numbers
+
+numbers = []
+
+for i in range(9):
+    numbers.append(i+1)
+    # print(f'The number is {numbers[i]}')
+    if(numbers[i]==1):
+        print(f'{numbers[i]}st\n')
+    elif(numbers[i]==2):
+        print(f'{numbers[i]}nd\n')
+    elif(numbers[i]==3):
+        print(f'{numbers[i]}rd\n')
+    else:
+        print(f'{numbers[i]}th\n')
+        
