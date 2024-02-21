@@ -44,3 +44,29 @@ for age in ages:
         print('The person is an adult.\n')
     else:
         print('The person is an elder.\n')    
+
+# 5-9 No Users 
+
+list = []
+
+if len(list) == 0:
+    print('We need to find some users!')
+
+for i in range(len(list)):
+    list.pop(i)
+
+# 5-10 Checking usernames
+
+current_users = ['user1', 'user2', 'user808', 'user123','user3']
+new_users = ['user2','user4','user3','user5','user72834']
+
+def is_item_in_list(list, item):
+    for user in list:
+        if item == user:
+            return True
+
+for user in new_users:
+    if is_item_in_list(current_users, user):
+        print(f'The user {user} already exists.')
+    else:
+        print(f'The user {user} is available.')

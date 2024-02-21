@@ -27,3 +27,4 @@ for pizza in pizzas:
 print("My friend's favorite pizzas are:")
 for friend_pizza in pizzas_copy:
     print(friend_pizza)
+
