@@ -57,12 +57,12 @@ for i in range(len(list)):
 
 # 5-10 Checking usernames
 
-current_users = ['user1', 'user2', 'user808', 'user123','user3']
-new_users = ['user2','user4','user3','user5','user72834']
+current_users = ['user1', 'user2', 'user808', 'user123','JOHn23']
+new_users = ['user2','user4','user3','user5','user72834', 'JohN23']
 
 def is_item_in_list(list, item):
     for user in list:
-        if item == user:
+        if item.lower() == user.lower():
             return True
 
 for user in new_users:
