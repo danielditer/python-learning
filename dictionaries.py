@@ -125,7 +125,7 @@ cities = {
     },
 }
 
-print("\n# 6-11 Cities ")
+print("\n# 6-11 Cities")
 for k, v in cities.items():
     print(f"{k.title()} is a city from {v['country'].title()} it's population is {v['population']} and a fact of "
           f"this city is {v['fact']}")
