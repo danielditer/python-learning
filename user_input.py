@@ -4,6 +4,7 @@ car = input("Enter the model of the car you want to rent: ")
 print(f"Let me see if I can find you a {car}")
 
 # 7-2 Restaurant Seating
+print("# 7-2 Restaurant Seating")
 number_persons = input("How many people are in your dinner group?: ")
 number_persons = int(number_persons)
 if number_persons > 8:
@@ -12,6 +13,7 @@ else:
     print("Your table is ready!")
 
 # 7-3 Multiples of Ten
+print("# 7-3 Restaurant Seating")
 number = input("Enter the number: ")
 number = int(number)
 if number % 10 == 0:
