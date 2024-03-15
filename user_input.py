@@ -13,10 +13,10 @@ else:
     print("Your table is ready!")
 
 # 7-3 Multiples of Ten
-print("# 7-3 Restaurant Seating")
+print("# 7-3 Restaurant Seating ")
 number = input("Enter the number: ")
 number = int(number)
 if number % 10 == 0:
     print(f"The number {number} is multiple of 10.")
 else:
-    print(f"The number {number} is not multiple of 10.")
+    print(f"The number {number} is not multiple of 10."):
