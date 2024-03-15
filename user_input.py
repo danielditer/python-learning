@@ -13,7 +13,7 @@ else:
     print("Your table is ready!")
 
 # 7-3 Multiples of Ten
-print("# 7-3 Restaurant Seating")
+print("# 7-3 Restaurant Seating ")
 number = input("Enter the number: ")
 number = int(number)
 if number % 10 == 0:
