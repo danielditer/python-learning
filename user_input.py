@@ -33,3 +33,19 @@ while message != "q":
 
     if message != "q":
         print(f"You'll add {message} to your pizza")
+
+#7-5. Movie Tickets
+
+print("\n#7-5. Movie Tickets")
+while True:
+    age = input("How old are you?: ")
+    if not age.isnumeric() and age == 'q':
+        break
+    else:
+        age = int(age)
+        if age < 3:
+            print("The ticket is free")
+        elif 3 <= age <= 12:
+            print("The ticket is $10")
+        elif age > 12:
+            print("The ticket is $15")
